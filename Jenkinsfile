@@ -6,5 +6,10 @@ pipeline {
         echo 'hi tarun'
       }
     }
+    stage('test') {
+      steps {
+        echo 'this is test branch'
+      }
+    }
   }
 }
